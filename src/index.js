@@ -9,10 +9,6 @@ app.get("/", (req, res) => {
     res.sendFile("./ui/index.html");
 })
 
-app.get("*", (req, res) => {
-    console.log(`IP: ${req.ip} | ${req.url}`); // work nigger
-})
-
 app.listen(port, () => {
     console.log("Listening on PORT %d", port);
 })
