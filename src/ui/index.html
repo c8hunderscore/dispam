@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+        <title>Dispam</title>
+    <head>
+        <link rel="stylesheet" href="light.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="titlebar">
+            <div class="content">
+                <h1>Dispam</h1><span>v0.1.0</span>
+            </div>
+        </div>
+        <main>
+            <h1 id="title">Dispam</h1>
+            <p>A Discord Server Raider.</p>
+            <br />
+            <div>
+                <h3>Import Tokens</h3>
+                <textarea id="tokenlist" spellcheck="false"></textarea>
+                <br />
+                <button type="submit" onclick="updateTokens()">Update</button>
+                <button type="submit" onclick="removeInvalidTokens()">Remove Invalid Tokens</button>
+            </div>
+            <div class="halfdiv">
+                <h3>Joiner</h3>
+                <label for="invitelink">discord.gg/</label>
+                <input type="text" id="invitelink" />
+                <button type="submit" onclick="join()">Join</button>
+            </div>
+            <div class="halfdiv">
+                <h3>Leaver</h3>
+                <label for="leaveid">Guild ID: </label>
+                <input type="text" id="leaveid" />
+                <button type="submit" onclick="leave()">Leave</button>
+            </div>
+            <div>
+                <h3>Flooder</h3>
+                <label for="channel">Channel ID: </label>
+                <input type="text" id="channel" />
+                <br />
+                <label for="msgcontent">Content: </label>
+                <textarea id="msgcontent"></textarea>
+                <br />
+                <label for="interval">Delay between messages (ms): </label>
+                <input type="number" id="interval" value="800" />
+                <br />
+                <button type="submit" id="spambtn" onclick="spam()">Start Spamming</button>
+            </div>
+            <div>
+                <h3>Reactions</h3>
+                <label for="channelid">Channel ID: </label>
+                <input type="text" id="channelid" />
+                <br />
+                <label for="msgid">Message ID: </label>
+                <input type="text" id="msgid" />
+                <br />
+                <label for="reaction">Reaction: </label>
+                <input type="text" id="reaction" />
+                <br />
+                <button type="submit" onclick="react()">React</button>
+            </div>
+        </main>
+    </body>
+</html>
