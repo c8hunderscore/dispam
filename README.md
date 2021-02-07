@@ -3,7 +3,7 @@ a discord server raider
 
 ## WARNING: Spamming on your main account with tool can get you banned.
 
-## WARNING 2: This is very rushed, you will likely get ratelimited and it won't be ver fun, sorry.
+## WARNING 2: This is very rushed, you will likely get ratelimited and it won't be very fun, sorry about that.
 
 ### How to install
 #### Requirements
