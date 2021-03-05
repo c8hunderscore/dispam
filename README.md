@@ -9,11 +9,11 @@ a discord server raider
 #### Requirements
 - [Node.JS](https://node-js.org/en/download)
 - [Google Chrome](https://google.com/chrome) (Apparently this doesn't display correctly on other browsers)
-- [This Git Repo](https://github.com/not-minegamer2000/dispam/archive/main.zip)
+- [This Git Repo](https://github.com/c8hundersore/dispam/archive/main.zip)
 
 #### Getting Started
 1. Open your terminal
-2. Navigate to the directory [this git repo](https://github.com/not-minegamer2000/dispam/archive/main.zip) is installed in
+2. Navigate to the directory [this git repo](https://github.com/c8hundersore/dispam/archive/main.zip) is installed in
 3. Type `node .` or `node index.js` and press enter
 4. Go to localhost:{PORT} in chrome and enjoy.
 
