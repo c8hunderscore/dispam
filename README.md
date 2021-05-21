@@ -5,6 +5,8 @@ a discord server raider
 
 ## WARNING 2: This is very rushed, you will likely get ratelimited and it won't be very fun, sorry about that.
 
+## **WARNING 3: DISCORD HAS PATCHED GUILD JOINING; DO NOT USE THE JOINER FEATURE UNLESS THE ACCOUNT IS EMAIL+PHONE VERIFIED**
+
 ### How to install
 #### Requirements
 - [Node.JS](https://node-js.org/en/download)
